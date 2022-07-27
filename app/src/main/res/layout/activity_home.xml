@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#6D9773"
+    tools:context=".Home">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/asa"
+        android:layout_marginLeft="46dp"/>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content">
+        <Button
+
+            android:id="@+id/btnAbsen"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="126dp"
+            android:layout_marginTop="100dp"
+            android:paddingBottom="10dp"
+            android:backgroundTint="@color/teal_700"
+            android:textSize="20dp"
+            android:text="Absensi"
+            android:textColor="#FFBA00"
+            android:background="@drawable/home1"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

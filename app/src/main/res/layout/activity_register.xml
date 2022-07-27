@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#6D9773"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_marginTop="-50dp"
+            android:layout_marginLeft="55dp"
+            android:layout_height="500dp"
+            android:src="@drawable/learn"/>
+        <EditText
+            android:paddingStart="15dp"
+            android:id="@+id/tnim"
+            android:textColorHint="@color/white"
+            android:hint="          NIM"
+            android:layout_marginTop="400dp"
+            android:layout_marginLeft="-255dp"
+            android:layout_width="217dp"
+            android:layout_height="43dp"
+            android:background="@drawable/regi"/>
+        <EditText
+            android:id="@+id/nama"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:hint="         NAMA"
+            android:layout_marginTop="465dp"
+            android:layout_marginLeft="-220dp"
+            android:layout_width="217dp"
+            android:layout_height="43dp"
+            android:background="@drawable/regi"/>
+        <EditText
+            android:id="@+id/tpassword"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:hint="       PASSWORD"
+            android:layout_marginTop="530dp"
+            android:layout_marginLeft="-218dp"
+            android:layout_width="217dp"
+            android:layout_height="43dp"
+            android:background="@drawable/regi"/>
+        <Button
+            android:id="@+id/btnReg"
+            android:layout_width="152dp"
+            android:layout_height="40dp"
+
+            android:layout_marginLeft="-180dp"
+            android:layout_marginTop="600dp"
+            android:textSize="20dp"
+            android:text="OK"
+            android:textColor="#FFBA00"
+            android:background="@drawable/regi2"/>
+    </LinearLayout>
+</LinearLayout>
